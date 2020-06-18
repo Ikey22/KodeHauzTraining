@@ -1,5 +1,6 @@
 fun myMessage(){
     println("Hello People!!")
+    println("How may we help you today? ")
 }
 
 fun displayInfo(vararg names:String){
@@ -15,7 +16,7 @@ fun displayInfo(vararg names:String){
 
 //fun addNum( x: Int =3, y: Int=5){
 //    var sum = x + y
-//    println(", $x plus $y = $sum")
+//    println("$x plus $y = $sum")
 //}
 
 fun returnNumber(message:String, x:Double, y:Double): Double{
@@ -38,7 +39,7 @@ fun main(){
     returnSum = returnNumber("Chris", 2.1, 4.9)
     println("returnSum is: $returnSum")
 
-    displayInfo(names = *arrayOf("ndin", "chris", "ezinne", "ayo"))
+    displayInfo(names = *arrayOf("ndin", "chris", "Ezinne", "ayo"))
 }
 
 /*
